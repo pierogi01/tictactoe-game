@@ -15,7 +15,7 @@ h1{
     margin: auto;
     position: relative;
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 0;
     grid-row-gap: 0;
     justify-content: center;
