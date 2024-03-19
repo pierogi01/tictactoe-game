@@ -1,7 +1,9 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-top: 10%;
+    display: block;
+    justify-content: center;
+    margin-top: 30px;
 }
 h1{
     position: relative;
@@ -16,6 +18,7 @@ h1{
     grid-template-columns: repeat(3, 2fr);
     grid-column-gap: 0;
     grid-row-gap: 0;
+    justify-content: center;
 }
 
 .tictactoe{
@@ -29,14 +32,18 @@ h1{
     color: black;
 }
 .winner{
-    height: 150px;
+    height: 120px;
     width: 180px;
     border: 3px solid green;
+    border-radius: 40px;
     background-color: lightgreen;
     display: block;
     position: absolute;
     text-align: center;
     padding-top: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 h2{
     color: white;
